@@ -1,0 +1,15 @@
+{
+  "source": ["tokens/input/input_processed.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "tokens/output/",
+      "files": [
+        {
+          "destination": "_tokens.scss",
+          "format": "scss/variables"
+        }
+      ]
+    }
+  }
+}
