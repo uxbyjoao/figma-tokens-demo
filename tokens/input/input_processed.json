@@ -1,6 +1,18 @@
 {
-  "red": {
-    "value": "#fcba03",
-    "type": "color"
+  "button": {
+    "primary": {
+      "colors": {
+        "background": {
+          "value": "#fcba03",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "colors": {
+    "red": {
+      "value": "#fcba03",
+      "type": "color"
+    }
   }
 }
