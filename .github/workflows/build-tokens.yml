@@ -17,9 +17,8 @@ jobs:
       - run: npx token-transformer tokens/tokens.json tokens/input/organisms.json globals,site,organisms globals,site
       # Transform Elements tokens
       - run: npx token-transformer tokens/tokens.json tokens/input/elements.json globals,site,organisms,elements globals,site,organisms
-      # Convert tokens according to Style Dictionary config
-      # - run: npx style-dictionary build --config sd-config.json
-
+      # Run Style Dictionary
+      - run: node sd-build.js
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
       - uses: stefanzweifel/git-auto-commit-action@v4.13.1
         with:
