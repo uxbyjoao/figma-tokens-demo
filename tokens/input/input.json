@@ -1,8 +1,22 @@
 {
   "global": {
-    "red": {
-      "value": "#fcba03",
-      "type": "color"
+    "colors": {
+      "red": {
+        "value": "#fcba03",
+        "type": "color"
+      }
+    }
+  },
+  "components": {
+    "button": {
+      "primary": {
+        "colors": {
+          "background": {
+            "value": "{colors.red}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
