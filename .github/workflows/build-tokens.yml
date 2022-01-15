@@ -11,7 +11,7 @@ jobs:
         uses: actions/setup-node@v2.4.0
       # - run: npm install
       # Transform Globals
-      - run: npx token-transformer tokens/tokens.json tokens/input/tokens.json
+      - run: npx token-transformer tokens/tokens.json tokens/input/input.json
       # Transform Site tokens
       # - run: npx token-transformer tokens/tokens.json tokens/input/site.json globals,site globals
       # # Transform Organisms tokens
