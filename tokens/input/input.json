@@ -1,5 +1,9 @@
 {
   "colors": {
+    "background": {
+      "value": "#fafaf9",
+      "type": "color"
+    },
     "base": {
       "white": {
         "value": "#ffffff",

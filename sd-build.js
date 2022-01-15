@@ -1,3 +1,7 @@
+/**
+ * This doesn't work for some reason because six7's
+ * transformer seems to be broken. Will check soon
+ */
 const StyleDictionary = require("style-dictionary");
 
 const BUILD_THEMES = ["globals", "site", "organisms", "elements"];
