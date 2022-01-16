@@ -1,0 +1,12 @@
+{
+  "theme": {
+    "background": {
+      "value": "#fafaf9",
+      "type": "color"
+    },
+    "primary": {
+      "value": "#ea580c",
+      "type": "color"
+    }
+  }
+}
