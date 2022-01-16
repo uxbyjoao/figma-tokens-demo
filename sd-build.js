@@ -1,11 +1,15 @@
-/**
- * This doesn't work for some reason because six7's
- * transformer seems to be broken. Will check soon
- */
 const StyleDictionary = require("style-dictionary");
 
-const BUILD_THEMES = ["globals", "site", "organisms", "elements"];
+/**
+ * Theme names to build — these must match the theme names in Figma Tokens
+ * @see https://docs.tokens.studio/sync/github
+ */
+const BUILD_THEMES = ["global", "site", "components", "elements", "darkmode"];
 
+/**
+ * Style Dictionary paths
+ * @see https://amzn.github.io/style-dictionary/#/config
+ */
 const BUILD_PATHS = {
   buildPath: `tokens/output/`,
   withTheme: {
@@ -55,4 +59,7 @@ function processWithTheme(theme) {
 console.log("Started Style Dictionary build...");
 console.log("\n");
 
+/**
+ * Execute
+ */
 BUILD_THEMES.map((theme) => processWithTheme(theme));
