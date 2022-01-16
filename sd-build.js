@@ -13,7 +13,7 @@ const BUILD_THEMES = ["global", "site", "components", "elements", "darkmode"];
 const BUILD_PATHS = {
   buildPath: `tokens/output/`,
   withTheme: {
-    source: (theme) => [`tokens/input/${theme}.json`],
+    source: (theme) => [`tokens/input/_${theme}.json`],
     destination: (theme) => `_${theme}.scss`,
   },
 };
