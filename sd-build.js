@@ -26,11 +26,11 @@ const BUILD_PATHS = {
 function getStyleDictionaryConfig(theme) {
   const config = {
     source: BUILD_PATHS.withTheme.source(theme),
-    prefix: `${theme}--`,
-    buildPath: BUILD_PATHS.buildPath,
     platforms: {
       scss: {
         transformGroup: "scss",
+        buildPath: BUILD_PATHS.buildPath,
+        prefix: `${theme}--`,
         files: [
           {
             destination: BUILD_PATHS.withTheme.destination(theme),
