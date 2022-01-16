@@ -1,0 +1,36 @@
+{
+  "button": {
+    "primary": {
+      "colors": {
+        "background": {
+          "default": {
+            "value": "#ea580c",
+            "type": "color"
+          }
+        },
+        "label": {
+          "default": {
+            "value": "#fafaf9",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "secondary": {
+      "colors": {
+        "background": {
+          "default": {
+            "value": "#d6d3d1",
+            "type": "color"
+          }
+        },
+        "label": {
+          "default": {
+            "value": "#44403c",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
