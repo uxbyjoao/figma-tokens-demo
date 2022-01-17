@@ -28,6 +28,10 @@
       "borderRadius": {
         "value": "6px",
         "type": "borderRadius"
+      },
+      "padding": {
+        "value": "20px",
+        "type": "spacing"
       }
     },
     "secondary": {
