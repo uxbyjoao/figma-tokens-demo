@@ -3,3 +3,7 @@
 @import "../../tokens/output/components";
 @import "../../tokens/output/site";
 @import "../../tokens/output/global";
+
+$global-typography-font-family: "Inter", "Helvetica", "Arial", sans-serif;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");

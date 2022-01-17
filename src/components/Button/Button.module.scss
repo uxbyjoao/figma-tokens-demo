@@ -1,8 +1,33 @@
 @import "../../styles/index.scss";
 
-.button {
+// Button base
+.btn {
   height: $elements-button-primary-dimensions-height;
-  //   padding: auto $elements-button-primary-padding-default;
-  background-color: $elements-button-primary-colors-background-default;
+  padding-left: $elements-button-primary-padding;
+  padding-right: $elements-button-primary-padding;
   border-radius: $elements-button-primary-border-radius;
+  border-width: 0;
+  font-family: $global-typography-font-family;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+// Primary Button
+.btn-primary {
+  background-color: $elements-button-primary-colors-background-default;
+  color: $elements-button-primary-colors-label-default;
+  &:hover {
+    background-color: $elements-button-primary-colors-background-hover;
+  }
+}
+
+// Secondary Button
+.btn-secondary {
+  background-color: $elements-button-secondary-colors-background-default;
+  color: $elements-button-secondary-colors-label-default;
+  &:hover {
+    background-color: $elements-button-secondary-colors-background-hover;
+  }
 }
