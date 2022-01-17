@@ -4,11 +4,11 @@
       "colors": {
         "background": {
           "default": {
-            "value": "#2563eb",
+            "value": "#ea580c",
             "type": "color"
           },
           "hover": {
-            "value": "#1d4ed8",
+            "value": "#c2410c",
             "type": "color"
           }
         },
