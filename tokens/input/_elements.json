@@ -6,6 +6,10 @@
           "default": {
             "value": "#ea580c",
             "type": "color"
+          },
+          "hover": {
+            "value": "#c2410c",
+            "type": "color"
           }
         },
         "label": {
@@ -14,6 +18,16 @@
             "type": "color"
           }
         }
+      },
+      "dimensions": {
+        "height": {
+          "value": "40px",
+          "type": "sizing"
+        }
+      },
+      "borderRadius": {
+        "value": "6px",
+        "type": "borderRadius"
       }
     },
     "secondary": {
@@ -21,6 +35,10 @@
         "background": {
           "default": {
             "value": "#d6d3d1",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#a8a29e",
             "type": "color"
           }
         },
@@ -30,6 +48,16 @@
             "type": "color"
           }
         }
+      },
+      "dimensions": {
+        "height": {
+          "value": "40px",
+          "type": "sizing"
+        }
+      },
+      "borderRadius": {
+        "value": "6px",
+        "type": "borderRadius"
       }
     }
   }

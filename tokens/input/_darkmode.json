@@ -1,8 +1,32 @@
 {
   "theme": {
-    "background": {
-      "value": "#1c1917",
-      "type": "color"
+    "colors": {
+      "background": {
+        "value": "#1c1917",
+        "type": "color"
+      }
+    }
+  },
+  "button": {
+    "secondary": {
+      "colors": {
+        "background": {
+          "default": {
+            "value": "#44403c",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#292524",
+            "type": "color"
+          }
+        },
+        "label": {
+          "default": {
+            "value": "#f5f5f4",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
