@@ -1,0 +1,8 @@
+@import "../../styles/index.scss";
+
+.button {
+  height: $elements-button-primary-dimensions-height;
+  //   padding: auto $elements-button-primary-padding-default;
+  background-color: $elements-button-primary-colors-background-default;
+  border-radius: $elements-button-primary-border-radius;
+}
