@@ -13,11 +13,11 @@ jobs:
 
       # Transform tokens
       # Using token-transformer v0.0.14 (latest is broken)
-      - run: npx token-transformer@0.0.14 tokens/tokens.json tokens/input/_global.json global
-      - run: npx token-transformer@0.0.14 tokens/tokens.json tokens/input/_site.json global,site global
-      - run: npx token-transformer@0.0.14 tokens/tokens.json tokens/input/_components.json global,site,components global,site
-      - run: npx token-transformer@0.0.14 tokens/tokens.json tokens/input/_elements.json global,site,components,elements global,site,components
-      - run: npx token-transformer@0.0.14 tokens/tokens.json tokens/input/_darkmode.json global,site,components,elements,darkmode global,site,components,elements
+      - run: npx token-transformer@0.0.17 tokens/tokens.json tokens/input/_global.json global
+      - run: npx token-transformer@0.0.17 tokens/tokens.json tokens/input/_site.json global,site global
+      - run: npx token-transformer@0.0.17 tokens/tokens.json tokens/input/_components.json global,site,components global,site
+      - run: npx token-transformer@0.0.17 tokens/tokens.json tokens/input/_elements.json global,site,components,elements global,site,components
+      - run: npx token-transformer@0.0.17 tokens/tokens.json tokens/input/_darkmode.json global,site,components,elements,darkmode global,site,components,elements
 
       # Run Style Dictionary build
       - run: node sd-build
